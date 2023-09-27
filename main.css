@@ -2,98 +2,108 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'roboto',sans-serif;
-}
-
-boby {
-    background-color: #E7E7E7;
-    padding: top 100px;
-}
-
-header {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    background-color: #37768f;
+    padding-top: 100px;
+  }
+  
+  header {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-}
-
-header img {
-    height: 36px;
+  }
+  
+  header img {
+    height: 40px;
     margin-right: 16px;
-}
-
-header h1{
-    font-size: 40px;
+  }
+  
+  header h1 {
+    font-size: 35px;
     font-weight: bold;
-}
-.container {
+    color: #2d2c36fa;
+  }
+  
+  .container {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
-}
-
-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 80px 0;
+    background-color: #f7f5f5;
+  }
+  
+  form {
     display: flex;
     max-width: 640px;
     width: 100%;
     justify-content: space-between;
     margin-bottom: 56px;
-}
-
-form input{
-    font-size: 24px;
+  }
+  
+  form input {
+    font-size: 18px;
     background-color: #fff;
     border: none;
-    border-bottom: 2px solid #000;
-    padding: 8px;
-}
-
-form button {
-    background-color: #009432;
+    border: 2px solid #3f3939;
+    padding-left: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: none;
+    height: 40px;
+    color: #3f3939;
+  }
+  
+  form button {
+    background-color: #0d1546;
     color: #fff;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: bold;
     border: none;
     cursor: pointer;
     padding: 8px;
-}
-
-table {
-    width: 100%;
-}
-
-table th{
-    border-bottom: #000;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+  }
+  
+  form button:hover {
+    background-color: #427ce9af;
+  }
+  
+  table {
+    width: 65%;
+  }
+  
+  table th {
+    border-bottom: 2px solid #bc8f8f;
     padding: 16px;
     font-size: 24px;
     font-weight: bold;
-
-}
-
-table td {
+    color: #3f3939;
+  }
+  
+  table td {
     padding: 16px 0;
     text-align: center;
     font-size: 18px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-table td img {
-    height: 30px;
-}
-
-.resultado {
-    padding: 8px;
+    border-bottom: 1px solid #3f3939(142, 216, 206, 0.6);
+    color: #3f3939;
+  }
+  
+  #qtde-contato,
+  #total-contato {
+    color: #3f3939;
     font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    border-radius: 3px;
-
-}
-
-.aprovado {
-    background-color: #009432;
-
-}
-
-.reprovado {
-    background-color: red;
-
-}
+  }
+  
+  table td img {
+    height: 30px;
+  }
